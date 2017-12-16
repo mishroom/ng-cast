@@ -2,8 +2,8 @@ angular.module('video-player')
   .component('videoListEntry', {
     controller: function() {
       // this.video = '';
-      this.addToPlayer = () => {
-        console.log('clicked');
+      this.addToPlayer = (video) => {
+        console.log(video);
       };
     },
     bindings: {
